@@ -1,3 +1,3 @@
-# pipe_and_filter
+# Pipe and Filter Game
 
-A new Flutter project.
+Esse é um projeto simples para demonstrar o uso do padrão pipe and filter 
