@@ -208,7 +208,7 @@ class _PipeFilterHomeState extends State<PipeFilterHome>
                           filtros.clear();
                           requisicaoEscolhida = brain.pegarRequisicao();
                           avatar = Random().nextInt(4);
-                          Future.delayed(const Duration(milliseconds: 500), () {
+                          Future.delayed(const Duration(milliseconds: 10), () {
                             mover();
                           });
                         });

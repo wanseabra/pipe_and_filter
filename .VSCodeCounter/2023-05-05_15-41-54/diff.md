@@ -1,0 +1,77 @@
+# Diff Summary
+
+Date : 2023-05-05 15:41:54
+
+Directory e:\\Apps\\pipe_and_filter\\lib
+
+Total : 53 files,  -1588 codes, -223 comments, -283 blanks, all -2094 lines
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)
+
+## Languages
+| language | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| Markdown | 2 | -5 | 0 | -4 | -9 |
+| Shell Script | 1 | -6 | -5 | -4 | -15 |
+| Dart | 1 | -14 | -10 | -6 | -30 |
+| Properties | 3 | -16 | 0 | -2 | -18 |
+| Docker | 1 | -19 | 0 | -10 | -29 |
+| Swift | 6 | -54 | -7 | -20 | -81 |
+| HTML | 1 | -61 | -16 | -10 | -87 |
+| YAML | 4 | -71 | -4 | -10 | -85 |
+| Groovy | 3 | -89 | -5 | -22 | -116 |
+| JSON | 5 | -255 | -10 | -2 | -267 |
+| XML | 10 | -466 | -48 | -12 | -526 |
+| C++ | 16 | -532 | -118 | -181 | -831 |
+
+## Directories
+| path | files | code | comment | blank | total |
+| :--- | ---: | ---: | ---: | ---: | ---: |
+| . | 53 | -1,588 | -223 | -283 | -2,094 |
+| .. | 53 | -1,588 | -223 | -283 | -2,094 |
+| .. (Files) | 6 | -76 | -10 | -18 | -104 |
+| ..\\.github | 2 | -31 | -4 | -4 | -39 |
+| ..\\.github\\workflows | 2 | -31 | -4 | -4 | -39 |
+| ..\\android | 12 | -159 | -51 | -33 | -243 |
+| ..\\android (Files) | 3 | -38 | 0 | -10 | -48 |
+| ..\\android\\app | 8 | -116 | -51 | -22 | -189 |
+| ..\\android\\app (Files) | 1 | -54 | -5 | -13 | -72 |
+| ..\\android\\app\\src | 7 | -62 | -46 | -9 | -117 |
+| ..\\android\\app\\src\\debug | 1 | -4 | -4 | -1 | -9 |
+| ..\\android\\app\\src\\main | 5 | -54 | -38 | -7 | -99 |
+| ..\\android\\app\\src\\main (Files) | 1 | -28 | -6 | -1 | -35 |
+| ..\\android\\app\\src\\main\\res | 4 | -26 | -32 | -6 | -64 |
+| ..\\android\\app\\src\\main\\res\\drawable | 1 | -4 | -7 | -2 | -13 |
+| ..\\android\\app\\src\\main\\res\\drawable-v21 | 1 | -4 | -7 | -2 | -13 |
+| ..\\android\\app\\src\\main\\res\\values | 1 | -9 | -9 | -1 | -19 |
+| ..\\android\\app\\src\\main\\res\\values-night | 1 | -9 | -9 | -1 | -19 |
+| ..\\android\\app\\src\\profile | 1 | -4 | -4 | -1 | -9 |
+| ..\\android\\gradle | 1 | -5 | 0 | -1 | -6 |
+| ..\\android\\gradle\\wrapper | 1 | -5 | 0 | -1 | -6 |
+| ..\\ios | 8 | -229 | -4 | -13 | -246 |
+| ..\\ios\\Runner | 7 | -222 | -2 | -9 | -233 |
+| ..\\ios\\Runner (Files) | 2 | -13 | 0 | -3 | -16 |
+| ..\\ios\\RunnerTests | 1 | -7 | -2 | -4 | -13 |
+| ..\\ios\\Runner\\Assets.xcassets | 3 | -148 | 0 | -4 | -152 |
+| ..\\ios\\Runner\\Assets.xcassets\\AppIcon.appiconset | 1 | -122 | 0 | -1 | -123 |
+| ..\\ios\\Runner\\Assets.xcassets\\LaunchImage.imageset | 2 | -26 | 0 | -3 | -29 |
+| ..\\ios\\Runner\\Base.lproj | 2 | -61 | -2 | -2 | -65 |
+| ..\\linux | 5 | -94 | -27 | -38 | -159 |
+| ..\\linux (Files) | 3 | -86 | -18 | -27 | -131 |
+| ..\\linux\\flutter | 2 | -8 | -9 | -11 | -28 |
+| ..\\macos | 6 | -446 | -5 | -15 | -466 |
+| ..\\macos\\Flutter | 1 | -8 | -3 | -4 | -15 |
+| ..\\macos\\Runner | 4 | -431 | 0 | -7 | -438 |
+| ..\\macos\\Runner (Files) | 2 | -20 | 0 | -6 | -26 |
+| ..\\macos\\RunnerTests | 1 | -7 | -2 | -4 | -13 |
+| ..\\macos\\Runner\\Assets.xcassets | 1 | -68 | 0 | 0 | -68 |
+| ..\\macos\\Runner\\Assets.xcassets\\AppIcon.appiconset | 1 | -68 | 0 | 0 | -68 |
+| ..\\macos\\Runner\\Base.lproj | 1 | -343 | 0 | -1 | -344 |
+| ..\\server | 1 | -6 | -5 | -4 | -15 |
+| ..\\test | 1 | -14 | -10 | -6 | -30 |
+| ..\\web | 2 | -96 | -16 | -10 | -122 |
+| ..\\windows | 10 | -437 | -91 | -142 | -670 |
+| ..\\windows\\flutter | 2 | -11 | -9 | -11 | -31 |
+| ..\\windows\\runner | 8 | -426 | -82 | -131 | -639 |
+
+[Summary](results.md) / [Details](details.md) / Diff Summary / [Diff Details](diff-details.md)

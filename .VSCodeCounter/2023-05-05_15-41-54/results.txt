@@ -1,0 +1,45 @@
+Date : 2023-05-05 15:41:54
+Directory : e:\Apps\pipe_and_filter\lib
+Total : 18 files,  1011 codes, 21 comments, 94 blanks, all 1126 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Dart     |         18 |      1,011 |         21 |         94 |      1,126 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                           | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                              |         18 |      1,011 |         21 |         94 |      1,126 |
+| . (Files)                                                      |         10 |        899 |         15 |         68 |        982 |
+| filtros                                                        |          5 |         83 |          6 |         19 |        108 |
+| interfaces                                                     |          3 |         29 |          0 |          7 |         36 |
++----------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                       | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------+----------+------------+------------+------------+------------+
+| e:\Apps\pipe_and_filter\lib\banco.dart                         | Dart     |         94 |          2 |          8 |        104 |
+| e:\Apps\pipe_and_filter\lib\filtros\anexar_na_mensagem.dart    | Dart     |         12 |          0 |          3 |         15 |
+| e:\Apps\pipe_and_filter\lib\filtros\assinar_mensagem.dart      | Dart     |         12 |          0 |          3 |         15 |
+| e:\Apps\pipe_and_filter\lib\filtros\capitalizar_mensagem.dart  | Dart     |         22 |          0 |          3 |         25 |
+| e:\Apps\pipe_and_filter\lib\filtros\criptografar_mensagem.dart | Dart     |         25 |          5 |          7 |         37 |
+| e:\Apps\pipe_and_filter\lib\filtros\prorizar_mensagem.dart     | Dart     |         12 |          1 |          3 |         16 |
+| e:\Apps\pipe_and_filter\lib\gerar_mensagem.dart                | Dart     |          8 |          0 |          2 |         10 |
+| e:\Apps\pipe_and_filter\lib\interfaces\imensagem.dart          | Dart     |         14 |          0 |          2 |         16 |
+| e:\Apps\pipe_and_filter\lib\interfaces\ioperacao.dart          | Dart     |          3 |          0 |          1 |          4 |
+| e:\Apps\pipe_and_filter\lib\interfaces\ipipelinebase.dart      | Dart     |         12 |          0 |          4 |         16 |
+| e:\Apps\pipe_and_filter\lib\main.dart                          | Dart     |         17 |          0 |          3 |         20 |
+| e:\Apps\pipe_and_filter\lib\main_screen.dart                   | Dart     |        271 |         12 |         16 |        299 |
+| e:\Apps\pipe_and_filter\lib\mensagem.dart                      | Dart     |         38 |          0 |          8 |         46 |
+| e:\Apps\pipe_and_filter\lib\pipelineEnvio.dart                 | Dart     |         26 |          0 |          3 |         29 |
+| e:\Apps\pipe_and_filter\lib\score_screen.dart                  | Dart     |        173 |          1 |          7 |        181 |
+| e:\Apps\pipe_and_filter\lib\start_screen.dart                  | Dart     |        114 |          0 |          5 |        119 |
+| e:\Apps\pipe_and_filter\lib\utils.dart                         | Dart     |         17 |          0 |          2 |         19 |
+| e:\Apps\pipe_and_filter\lib\widgets.dart                       | Dart     |        141 |          0 |         14 |        155 |
+| Total                                                          |          |      1,011 |         21 |         94 |      1,126 |
++----------------------------------------------------------------+----------+------------+------------+------------+------------+

@@ -78,6 +78,7 @@ class StartPage extends StatelessWidget {
                           text: const TextSpan(
                               text: "\nSeu score ficará disponível no final. ",
                               style: TextStyle(
+                                  color: Colors.black,
                                   fontSize: 20,
                                   fontStyle: FontStyle.italic,
                                   fontWeight: FontWeight.w500),
