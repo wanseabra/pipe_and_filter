@@ -130,14 +130,24 @@ class _PipeFilterHomeState extends State<PipeFilterHome>
                             child: child!,
                           );
                         }),
+                    const Padding(
+                        padding:
+                            EdgeInsets.symmetric(vertical: 5.0, horizontal: 1),
+                        child: Text(
+                          "Mensagem a ser enviada:",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18),
+                        )),
                     Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 5.0, horizontal: 1),
-                      child: CustomTextField(
-                        textController: _textController,
-                        label: "Digite aqui o texto",
-                      ),
-                    ),
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 5.0, horizontal: 1),
+                        child: Text(
+                          requisicaoEscolhida.mensagem,
+                          style: const TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20,
+                              color: Colors.red),
+                        )),
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 5),
                       child: Text(
@@ -177,30 +187,29 @@ class _PipeFilterHomeState extends State<PipeFilterHome>
                     ),
                     CustomButton(
                         onTap: () {
-                          if (_textController.text != '') {
-                            setState(() {
-                              mensagemUser =
-                                  gerarMensagem(_textController.text, filtros);
-                              if (brain.checkMensagem(
-                                  mensagemUser!, requisicaoEscolhida)) score++;
-                              mover(); //mover pra fora da tela
-                              _textController.clear();
-                              filtros.clear();
-                              requisicaoEscolhida = brain.pegarRequisicao();
-                              avatar = Random().nextInt(4);
-                              Future.delayed(const Duration(milliseconds: 500),
-                                  () {
-                                mover();
-                              });
+                          setState(() {
+                            mensagemUser = gerarMensagem(
+                                requisicaoEscolhida.mensagem, filtros);
+                            if (brain.checkMensagem(
+                                mensagemUser!, requisicaoEscolhida)) score++;
+                            mover(); //mover pra fora da tela
+                            _textController.clear();
+                            filtros.clear();
+                            requisicaoEscolhida = brain.pegarRequisicao();
+                            avatar = Random().nextInt(4);
+                            Future.delayed(const Duration(milliseconds: 500),
+                                () {
+                              mover();
                             });
-                            //return FocusScope.of(context).unfocus();
-                          } else {
-                            Fluttertoast.showToast(
-                                msg: "O campo de texto está vazio",
-                                toastLength: Toast.LENGTH_SHORT,
-                                gravity: ToastGravity.BOTTOM,
-                                fontSize: 16.0);
-                          }
+                          });
+                          //return FocusScope.of(context).unfocus();
+                          // } else {
+                          //   Fluttertoast.showToast(
+                          //       msg: "O campo de texto está vazio",
+                          //       toastLength: Toast.LENGTH_SHORT,
+                          //       gravity: ToastGravity.BOTTOM,
+                          //       fontSize: 16.0);
+                          // }
                         },
                         label: "Enviar a mensagem!"),
                     if (mensagemUser != null)
