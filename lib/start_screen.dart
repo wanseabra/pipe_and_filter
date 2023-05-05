@@ -73,14 +73,22 @@ class StartPage extends StatelessWidget {
                         style: textStyle(),
                         textAlign: TextAlign.center,
                       ),
-                      const Text(
-                        "\nSeu score ficará disponível no final.",
-                        style: TextStyle(
-                            fontSize: 20,
-                            fontStyle: FontStyle.italic,
-                            fontWeight: FontWeight.w500),
-                        textAlign: TextAlign.center,
-                      ),
+                      RichText(
+                          textAlign: TextAlign.center,
+                          text: const TextSpan(
+                              text: "\nSeu score ficará disponível no final. ",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  fontStyle: FontStyle.italic,
+                                  fontWeight: FontWeight.w500),
+                              children: [
+                                TextSpan(
+                                    text: "Você tem 30 segundos!",
+                                    style: TextStyle(
+                                        fontSize: 20,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.red))
+                              ])),
                       const SizedBox(
                         height: 20,
                       ),

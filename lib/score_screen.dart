@@ -147,8 +147,14 @@ class _ScoreScreenState extends State<ScoreScreen> {
                       children: snapshot.data!.docs.map((document) {
                         return ListTile(
                           leading: const Icon(Icons.emoji_emotions),
-                          title: Text(document['nome']),
-                          trailing: Text(document['pontuacao'].toString()),
+                          title: Text(
+                            document['nome'],
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                          trailing: Text(
+                            document['pontuacao'].toString(),
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
                         );
                       }).toList(),
                     ),
